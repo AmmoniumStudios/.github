@@ -23,10 +23,10 @@ body:
       description: Please add the new, improved code you wish to add.
     validations:
       required: true
-  type: textarea
-  id: description
-  attributes:
-    label: "Description"
-    description: Please add a description of the changes made, along with their benefits
-  validatons:
-    required: true  
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please add a description of the changes made, along with their benefits
+    validatons:
+      required: true  
