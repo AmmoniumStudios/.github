@@ -14,9 +14,8 @@ body:
   - type: textarea
     id: oldCode
     attributes:
-      label: "The Old Code"
+      label: "Old Code"
       description: Please enter the code you wish to replace
-      placeholder: public static string MyFunc() { // Code here }
   - type: textarea
     id: newcode
     attributes:
@@ -24,3 +23,10 @@ body:
       description: Please add the new, improved code you wish to add.
     validations:
       required: true
+  type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Please add a description of the changes made, along with their benefits
+  validatons:
+    required: true  

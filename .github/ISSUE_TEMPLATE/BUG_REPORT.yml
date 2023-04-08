@@ -55,7 +55,7 @@ body:
     attributes:
       label: "Severity Level"
       description: What is the level of impact?
-      multiple: true
+      multiple: false
       options:
         - 1 - Program Breaking
         - 2 
