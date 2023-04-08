@@ -28,5 +28,5 @@ body:
     attributes:
       label: "Description"
       description: Please add a description of the changes made, along with their benefits
-    validatons:
-      required: true  
+    validations:
+      required: true
