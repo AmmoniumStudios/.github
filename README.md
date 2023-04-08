@@ -4,10 +4,6 @@
 
 ## Index
 
-- [Issue Templates](/ISSUE_TEMPLATE/)
-
-## TODO
-
-- Code of Conduct
-- Contributing
-  
+- [Issue Templates](/.github/ISSUE_TEMPLATE/)
+- [Code of Conduct](/CODE_OF_CONDUCT.md)
+- [Contributing](/CONTRIBUTING.md)
