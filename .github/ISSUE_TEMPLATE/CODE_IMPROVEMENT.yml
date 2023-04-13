@@ -31,4 +31,12 @@ body:
       label: "Description"
       description: Please add a description of the changes made, along with their benefits
     validations:
-      required: true  
+      required: true
+  - type: input
+    id: implementation_pr
+    attributes:
+      label: "Implementation PR"
+      description: Pull request used
+      placeholder: "#Pull Request ID"
+    validations:
+      required: false
