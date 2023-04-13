@@ -1,5 +1,5 @@
 name: "Code Improvement"
-description: Create a new ticket for a bug.
+description: Create a new ticket for code improvement.
 title: "[CODE] - <title>"
 labels: ["code improvement"]
 body:
@@ -16,6 +16,8 @@ body:
     attributes:
       label: "Old Code"
       description: Please enter the code you wish to replace
+    validations:
+      required: true
   - type: textarea
     id: newcode
     attributes:
