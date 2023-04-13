@@ -4,22 +4,6 @@ title: "[REQUEST] - <title>"
 labels: ["request"]
 body:
   - type: textarea
-    id: implementation_pr
-    attributes:
-      label: "Implementation PR"
-      description: Pull request used
-      placeholder: "#Pull Request ID"
-    validations:
-      required: false
-  - type: textarea
-    id: reference_issues
-    attributes:
-      label: "Reference Issues"
-      description: Common issues
-      placeholder: "#Issues IDs"
-    validations:
-      required: false
-  - type: textarea
     id: summary
     attributes:
       label: "Summary"
@@ -36,18 +20,18 @@ body:
     validations:
       required: true
   - type: textarea
-    id: drawbacks
+    id: additional
     attributes:
-      label: "Drawbacks"
-      description: What are the drawbacks/impacts of your feature request ?
-      placeholder: Identify the drawbacks and impacts while being neutral on your feature request
+      label: "Additional Information"
+      description: Provide addtional information surrounding the feature request
+      placeholder: This includes...
     validations:
-      required: true
-  - type: textarea
-    id: unresolved_question
+      required: false
+  - type: input
+    id: implementation_pr
     attributes:
-      label: "Unresolved questions"
-      description: What questions still remain unresolved ?
-      placeholder: Identify any unresolved issues.
+      label: "Implementation PR"
+      description: Pull request used
+      placeholder: "#Pull Request ID"
     validations:
       required: false
